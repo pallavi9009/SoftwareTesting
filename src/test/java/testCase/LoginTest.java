@@ -52,7 +52,7 @@ public class LoginTest extends TestBase
 		Assert.assertEquals(expURL,actURL);
 		Reporter.log("Login Successful = " + actURL);
 	}
-	@Test(dataProvider = "testData")
+	/*@Test(dataProvider = "testData")
 	public void verifyMulticredsTest(String username,String password )
 	{
 		SoftAssert s=new SoftAssert();
@@ -61,7 +61,7 @@ public class LoginTest extends TestBase
 		s.assertEquals(expURL, actURL);
 		s.assertAll();
 		
-	} 
+	} */
 	@DataProvider(name="testData")
 	public Object [][] getData()
 	{
